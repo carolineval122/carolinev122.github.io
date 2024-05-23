@@ -141,7 +141,7 @@ body {
 }
 
 .profile-image {
-  width: 150px;
+  width: 200px;
   border-radius: 50%;
   animation: bounce 1s infinite alternate;
 }
@@ -161,6 +161,12 @@ body {
   height: 2px;
   background-color: var(--card-background);
   margin: 5.5rem 0;
+}
+/* About Me */
+#aboutMe {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 /* Projects */
 #projects {
