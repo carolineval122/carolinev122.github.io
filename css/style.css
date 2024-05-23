@@ -168,12 +168,6 @@ body {
   flex-direction: column;
   height: 100%;
 }
-.rectangle {
-  height: 400px;
-  width: 500px;
-  background-color: #7fddff;
-  border-radius: 3rem;
-}
 
 /* Projects */
 #projects {
