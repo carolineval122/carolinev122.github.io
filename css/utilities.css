@@ -115,12 +115,6 @@ h2::selection {
   margin-bottom: .1rem;
 }
 
-.rectangle {
-  height: 200px;
-  width: 150px;
-  background-color: #7fddff;
-}
-
 /* Project cards */
 .card {
   padding: 1rem;
