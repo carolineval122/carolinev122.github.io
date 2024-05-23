@@ -109,8 +109,9 @@ h2::selection {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 8rem;
-  padding: 1rem;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  padding: 5rem;
 }
 
 .content-text h4 {
@@ -149,8 +150,7 @@ h2::selection {
   opacity: 1;
 }
 
-/* Project Images */
-
+/* react Project Images */
 /* project 1 */
 .card:nth-child(1) {
   background: url(../assets/project/menupic.png) center center/cover;
