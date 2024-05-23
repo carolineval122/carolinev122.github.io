@@ -110,16 +110,8 @@ h2::selection {
   align-items: center;
   justify-content: center;
   margin-top: 10rem;
-  margin-bottom: 1rem;
-  padding: 5rem;
+  padding: 1rem;
 }
-
-.content-text h4 {
-  padding: 0.5rem;
-  margin: 0 auto;
-  max-width: 700px;
-}
-
 
 /* Project cards */
 .card {
