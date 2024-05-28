@@ -144,7 +144,7 @@ h2::selection {
   opacity: 1;
 }
 
-/* react Project Images */
+/* Project Images */
 /* project 1 */
 .card:nth-child(1) {
   background: url(../assets/project/bumpCart.png) center center/cover;
