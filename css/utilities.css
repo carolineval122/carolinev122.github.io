@@ -147,7 +147,7 @@ h2::selection {
 /* Project Images */
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../assets/project/bumpCart.png) center center/cover;
+  background: url(../assets/project/smallBump.jpg) center center/cover;
 }
 
 /* Project 2 */
@@ -157,22 +157,22 @@ h2::selection {
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../assets/project/ChatGPTCard.png) center center/cover;
+  background: url(../assets/project/smallChat.jpg) center center/cover;
 }
 
 /* Project 4 */
 .card:nth-child(4) {
-  background: url(../assets/project/littleUsCard.png) center center/cover;
+  background: url(../assets/project/smallLittle.jpg) center center/cover;
 }
 
 /* Project 5 */
 .card:nth-child(5) {
-  background: url(../assets/project/flashStudyCard.png) center center/cover;
+  background: url(../assets/project/smallFlash.jpg) center center/cover;
 }
 
 /* Project 6 */
 .card:nth-child(6) {
-  background: url(../assets/project/sparkCard.png) center center/cover;
+  background: url(../assets/project/smallSpark.jpg) center center/cover;
 }
 
 /* Media Queries */

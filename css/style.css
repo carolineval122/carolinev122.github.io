@@ -370,3 +370,168 @@ body {
     width: 80%;
   }
 }
+
+/* Skills Page */
+
+li{ /*style the li tag*/
+	list-style-type: none;
+	font-family: "Raleway", sans-serif;
+}
+
+#skillsContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.skills1, .skills2{ /*style the text*/
+	width: 500px;
+	margin: 50px auto;
+	color: #fff;
+  flex: 1; /* Each takes up equal space in the container */
+
+}
+
+.skills1 li{ /*set margin of li*/
+	margin: 20px 0;
+}
+
+
+.skills2 li{ /*set margin of li*/
+	margin: 20px 0;
+}
+
+.bar{ /*style the bar*/
+	background-color: #353b48;
+	display: block;
+	height: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #42CAFD;
+}
+
+.bar span{ /*style the span tag*/
+	height: 2px;
+	float: left;
+	background-color: #7fddff;
+}
+
+/* Skills 1*/
+.html{ /*set skills and animation of html*/
+	width: 100%;
+	animation: html 2s;
+}
+
+.css{ /*set skills and animation of css*/
+	width: 95%;
+	animation: css 2s;
+}
+
+.javascript{ /*set skills and animation of javascript*/
+	width: 60%;
+	animation: javascript 2s;
+}
+
+.python{ /*set skills and animation of jquery*/
+	width: 80%;
+	animation: jquery 2s;
+}
+
+@keyframes html{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 100%;
+	}
+}
+
+@keyframes css{ /*animate css skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 95%;
+	}
+}
+
+@keyframes javascript{ /*animate javascript skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 60%;
+	}
+}
+
+@keyframes python{ /*animate python skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+/*skills 2 */
+.figma{ /*set skills and animation of figma*/
+	width: 100%;
+	animation: jquery 2s;
+}
+
+.illustrator{ /*set skills and animation of illustrator*/
+	width: 80%;
+	animation: jquery 2s;
+}
+
+.procreate{ /*set skills and animation of procreate*/
+	width: 80%;
+	animation: jquery 2s;
+}
+
+.microsoft{ /*set skills and animation of microsoft*/
+	width: 100%;
+	animation: jquery 2s;
+}
+
+@keyframes figma{ /*animate figma skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 100%;
+	}
+}
+@keyframes illustrator{ /*animate illustrator skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+@keyframes procreate{ /*animate procreate skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+@keyframes microsoft{ /*animate microsoft skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 100%;
+	}
+}
