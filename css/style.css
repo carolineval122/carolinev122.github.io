@@ -382,14 +382,13 @@ li{ /*style the li tag*/
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .skills1, .skills2{ /*style the text*/
-	width: 500px;
-	margin: 50px auto;
+	width: calc(50% - 100px);
+	margin: 25px;
 	color: #fff;
-  flex: 1; /* Each takes up equal space in the container */
-
 }
 
 .skills1 li{ /*set margin of li*/
@@ -412,9 +411,11 @@ li{ /*style the li tag*/
 }
 
 .bar span{ /*style the span tag*/
-	height: 2px;
-	float: left;
+  width:0;
+	height: 5px;
+	display: block;
 	background-color: #7fddff;
+  animation-fill-mode: forwards;
 }
 
 /* Skills 1*/
