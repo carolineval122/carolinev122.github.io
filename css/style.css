@@ -538,3 +538,24 @@ li{ /*style the li tag*/
 		width: 100%;
 	}
 }
+
+/* Soft Skill Buttons */
+/*Container holding soft skills*/
+.softSkills{
+  text-align: center;
+  position: relative;
+  margin: 0.5rem;
+}
+
+.button{
+  display: block;
+  padding: 0.8em 1.4e,;
+  font-size: 1rem;
+  transition: ease-in-out 2s;
+}
+
+.buttonDesign{
+  text-transform: initial;
+  box-shadow: rgba(161, 154, 154, 0.15) 0px 3px 3px 0px;
+  border:0;
+}
