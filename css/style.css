@@ -383,6 +383,8 @@ li{ /*style the li tag*/
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .skills1, .skills2{ /*style the text*/
@@ -436,7 +438,7 @@ li{ /*style the li tag*/
 
 .python{ /*set skills and animation of jquery*/
 	width: 80%;
-	animation: jquery 2s;
+	animation: python 2s;
 }
 
 @keyframes html{ /*animate html skills*/
@@ -465,7 +467,7 @@ li{ /*style the li tag*/
 	}
 
 	100%{
-		width: 100%;
+		width: 60%;
 	}
 }
 
@@ -475,7 +477,7 @@ li{ /*style the li tag*/
 	}
 
 	100%{
-		width: 100%;
+		width: 80%;
 	}
 }
 
