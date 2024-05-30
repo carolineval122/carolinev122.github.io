@@ -243,6 +243,26 @@ body {
   height: auto; /* Maintain aspect ratio */
 }
 
+/* Experience Page */
+.bigContainer{
+justify-content: center;
+margin: 5rem;
+padding: 2rem;
+}
+
+.experience1{ 
+background-color: #7fddff;
+margin:1rem;
+justify-content: center;
+}
+
+.experience2{ 
+  
+}
+
+.experience3{ 
+  
+}
 
 /* Footer */
 #footer {
