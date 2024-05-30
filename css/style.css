@@ -545,6 +545,8 @@ li{ /*style the li tag*/
   text-align: center;
   position: relative;
   margin: 0.5rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
 .button {
@@ -553,6 +555,7 @@ li{ /*style the li tag*/
   font-size: 1rem;
   transition: transform 0.3s ease-in-out; /* Transition for transform on hover */
   margin: 0.5em; /* Space between buttons */
+  border: 1px solid #c0bebe;
 }
 
 .button:hover {
