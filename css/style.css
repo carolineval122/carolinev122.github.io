@@ -11,7 +11,7 @@
   /* Colors */
   --primary-color: #42CAFD;
   --secondary-color: #42b3fd;
-  --bg-primary: #F3E8EE;
+  --bg-primary: #e8f0f3;
   --text-color: #0d1012;
   --text-color-two: #ffffff;
   --bg-secondary: #141516;
@@ -224,7 +224,7 @@ body {
 }
 
 .text-column {
-  background-color: #7fddff; /* Light blue background for the text */
+  background-color: #9bd6fd; /* Light blue background for the text */
   padding: 25px;
   margin: 25px;
   display: flex;
@@ -255,7 +255,7 @@ margin-top: 5rem;
 }
 
 .experience1{ 
-  background-color: #7fddff; /* Light blue background */
+  background-color: #9bd6fd; /* Light blue background */
   margin: 1rem;
   padding: 1rem;
   width: 80%; /* Control width of each box */
@@ -263,7 +263,7 @@ margin-top: 5rem;
 }
 
 .experience2{ 
-  background-color: #7fddff; /* Light blue background */
+  background-color: #7fddff;; /* Light blue background */
   margin: 1rem;
   padding: 1rem;
   width: 80%; /* Control width of each box */
@@ -271,7 +271,7 @@ margin-top: 5rem;
 }
 
 .experience3{ 
-  background-color: #7fddff; /* Light blue background */
+  background-color: #9bd6fd; /* Light blue background */
   margin: 1rem;
   padding: 1rem;
   width: 80%; /* Control width of each box */
